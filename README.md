@@ -11,19 +11,19 @@ Prescribes the correct fertilizer based on soil type, crop type, and current nut
 The goal of this project is to optimize agricultural yield and reduce resource wastage through precision agriculture techniques.
 
 # Features
-Crop Advisor: Uses the Gaussian Naive Bayes algorithm to analyze soil nutrients (Nitrogen, Phosphorus, Potassium), temperature, humidity, pH value, and rainfall to recommend the optimal crop.
+1. Crop Advisor: Uses the Gaussian Naive Bayes algorithm to analyze soil nutrients (Nitrogen, Phosphorus, Potassium), temperature, humidity, pH value, and rainfall to recommend the optimal crop.
 
-Nutrient Calculator: Uses the Random Forest Classifier to analyze soil composition and crop requirements to suggest specific fertilizers.
+2. Nutrient Calculator: Uses the Random Forest Classifier to analyze soil composition and crop requirements to suggest specific fertilizers.
 
-User-Friendly Interface: A responsive web interface built with Bootstrap 5, featuring tab persistence and real-time input validation.
+3. User-Friendly Interface: A responsive web interface built with Bootstrap 5, featuring tab persistence and real-time input validation.
 
-Robust Backend: Powered by Python Flask and Scikit-learn.
+4. Robust Backend: Powered by Python Flask and Scikit-learn.
 
-#Technical Architecture
+# Technical Architecture
 Machine Learning Models
-Crop Prediction: Implements Gaussian Naive Bayes. This model was selected for its high accuracy in handling continuous environmental data (temperature, humidity) and its probabilistic nature.
+1. Crop Prediction: Implements Gaussian Naive Bayes. This model was selected for its high accuracy in handling continuous environmental data (temperature, humidity) and its probabilistic nature.
 
-Fertilizer Prediction: Implements Random Forest Classifier. This model handles categorical data (Soil Type, Crop Type) effectively and prevents overfitting through ensemble learning.
+2. Fertilizer Prediction: Implements Random Forest Classifier. This model handles categorical data (Soil Type, Crop Type) effectively and prevents overfitting through ensemble learning.
 
 # Tech Stack
 Language: Python 3.x
@@ -83,26 +83,26 @@ Open your web browser and navigate to: http://127.0.0.1:5000/
 
 # Usage Guide
 For Crop Recommendation:
-Navigate to the "Crop Advisor" tab.
+1. Navigate to the "Crop Advisor" tab.
 
-Enter the N, P, K values of the soil.
+2. Enter the N, P, K values of the soil.
 
-Input the environmental conditions (Temperature, Humidity, pH, Rainfall).
+3. Input the environmental conditions (Temperature, Humidity, pH, Rainfall).
 
-Click "Predict Crop" to view the result.
+4. Click "Predict Crop" to view the result.
 
 For Fertilizer Recommendation:
-Navigate to the "Fertilizer Doctor" tab.
+1. Navigate to the "Fertilizer Doctor" tab.
 
-Select the Soil Type and the Crop you intend to grow.
+2. Select the Soil Type and the Crop you intend to grow.
 
-Enter the current nutrient levels and environmental data.
+3. Enter the current nutrient levels and environmental data.
 
-Click "Get Recommendation" to receive the prescription.
+4. Click "Get Recommendation" to receive the prescription.
 
 # Datasets
 The models were trained on the following datasets:
 
-Crop Recommendation Dataset: Contains parameters for 22 different crops (N, P, K, temperature, humidity, pH, rainfall).
+1. Crop Recommendation Dataset: Contains parameters for 22 different crops (N, P, K, temperature, humidity, pH, rainfall).
 
-Fertilizer Prediction Dataset: Contains soil and crop-specific data mapped to suitable fertilizers.
+2. Fertilizer Prediction Dataset: Contains soil and crop-specific data mapped to suitable fertilizers.
