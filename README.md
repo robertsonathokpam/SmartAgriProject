@@ -36,7 +36,7 @@ Data Processing: Pandas, NumPy
 
 Machine Learning: Scikit-learn
 
-Project Structure
+# Project Structure
 ```
 /smart-farming-ai
   ├── app.py                   # Main Flask application entry point
